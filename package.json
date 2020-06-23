@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/learn-co-curriculum/redux-dispatch-with-event-listeners/issues"
   },
-  "homepage": "https://github.com/learn-co-curriculum/redux-dispatch-with-event-listeners#readme"  
+  "homepage": "https://github.com/learn-co-curriculum/redux-dispatch-with-event-listeners#readme",
+  "dependencies": {
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.5.0"
+  }
 }
