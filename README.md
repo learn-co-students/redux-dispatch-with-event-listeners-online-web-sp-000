@@ -1,5 +1,6 @@
 # Completing our Counter Application
 
+
 ## Objectives
 
 In this lesson, you will learn the following:
