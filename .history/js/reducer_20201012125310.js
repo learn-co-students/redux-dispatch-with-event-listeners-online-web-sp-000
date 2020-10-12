@@ -23,9 +23,3 @@ function render(){
   container.textContent = state.count;
 }
 dispatch({type: '@@init'})
-
-let button = document.getElementById('button');
- 
-button.addEventListener('click', () => {
-  dispatch({type: 'INCREASE_COUNT'})
-})

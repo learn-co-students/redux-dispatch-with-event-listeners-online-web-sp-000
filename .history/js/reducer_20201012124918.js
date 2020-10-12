@@ -1,12 +1,12 @@
 // add code snippets from README
-let state
+let state = {count:0};
 
-function reducer(state = { count: 0 }, action) {
+function reducer(state, action) {
     switch (action.type) {
         case 'INCREASE_COUNT':
-            return {count: state.count + 1}
-        default:
-            return state
+            return {count:state.count + 1}
+        // default
+            // return state
     }
 }
 // reducer({count: 10}, {type: 'INCREASE_COUNT'});
@@ -22,10 +22,3 @@ function render(){
   let container = document.getElementById('container');
   container.textContent = state.count;
 }
-dispatch({type: '@@init'})
-
-let button = document.getElementById('button');
- 
-button.addEventListener('click', () => {
-  dispatch({type: 'INCREASE_COUNT'})
-})
