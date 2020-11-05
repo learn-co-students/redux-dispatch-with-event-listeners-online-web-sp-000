@@ -16,7 +16,8 @@ so if you run `open index.html`, any code in `js/reducer.js` will execute.
 We have built out most of the redux pattern.  Don't worry, we'll review it.
 
 For now, let's talk about what we want as a user experience.  Here it is: you
-click on a button, and you see a number on the page go from zero to one.  Click
+click on a button, and you sl
+ee a number on the page go from zero to one.  Click
 again, and you see the number go from one to two.  We can see a couple of steps
 involved in this.
 
