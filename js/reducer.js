@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let state;
  
 function reducer(state = {count: 0}, action){
@@ -19,6 +20,25 @@ function render(){
   container.textContent = state.count;
 }
  
+let button = document.getElementById('button');
+ 
+button.addEventListener('click', () => {
+  dispatch({type: 'INCREASE_COUNT'})
+})
+
+// add code snippets from README
+let state = {count: 0}
+
+function reducer(state, action) {
+  switch(action.type) {
+    case 'INCREASE_COUNT': 
+      return {count: state.count + 1};
+    default: 
+      return state;
+  }
+}
+
+
 let button = document.getElementById('button');
  
 button.addEventListener('click', () => {
